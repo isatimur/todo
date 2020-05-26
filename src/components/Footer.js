@@ -1,12 +1,10 @@
 import React from 'react'
 import FilterLink from '../containers/FilterLink'
 import {VisibilityFilters} from '../actions'
-import {makeStyles} from '@material-ui/core/styles';
 import AllInboxIcon from '@material-ui/icons/AllInbox';
 import DoneAllIcon from '@material-ui/icons/DoneAll';
 import ClearAllIcon from '@material-ui/icons/ClearAll';
 import BottomNavigation from '@material-ui/core/BottomNavigation';
-import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
 
 const bottomIcons = [
     {   id: 1,

@@ -3,7 +3,6 @@ import Footer from './Footer'
 import AddTodo from '../containers/AddTodo'
 import VisibleTodoList from '../containers/VisibleTodoList'
 import Header from "./Header";
-import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
 
 const App = () => (

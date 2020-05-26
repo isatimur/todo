@@ -6,8 +6,6 @@ import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import Paper from "@material-ui/core/Paper";
 import Box from "@material-ui/core/Box";
-import Container from "@material-ui/core/Container";
-import Grid from "@material-ui/core/Grid";
 
 const useStyles = makeStyles({
     paper: {
