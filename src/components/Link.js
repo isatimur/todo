@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 
 const Link = ({label, active, children, onClick}) => (
-    <BottomNavigationAction label={label} value={label} showLabel={active} icon={children} onClick={onClick} disabled={active}/>
+    <BottomNavigationAction label={label} value={label} showLabel={true} icon={children} onClick={onClick} disabled={active}/>
 )
 
 Link.propTypes = {
